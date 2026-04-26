@@ -7,4 +7,5 @@ import (
 
 func SetupRoutes(r *gin.Engine, db *gorm.DB) {
 	TaskRoutes(r, db)
+	UserRoutes(r, db)
 }
