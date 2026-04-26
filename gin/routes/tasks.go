@@ -13,5 +13,7 @@ func TaskRoutes(r *gin.Engine, db *gorm.DB) {
 	{
 		tasks.GET("", taskHandler.ReadTasks)
 		tasks.POST("", taskHandler.CreateTask)
+		tasks.PUT("/:id", taskHandler.UpdateTask)
+		tasks.DELETE("/:id", taskHandler.DeleteTask)
 	}
 }
