@@ -12,7 +12,7 @@ import (
 
 //retorna uma instância do database (postgres nesse projeto)
 func SetupDatabase() *sql.DB {
-	err := godotenv.Load()
+	err := godotenv.Load("../.env")
 	if err != nil{
 		log.Fatal("Error in loading .env file.")
 	}

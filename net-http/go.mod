@@ -1,4 +1,4 @@
-module github.com/erixalv/crud-golang
+module github.com/erixalv/crud-golang/net-http
 
 go 1.26.2
 

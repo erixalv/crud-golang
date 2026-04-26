@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/erixalv/crud-golang/config"
-	"github.com/erixalv/crud-golang/handlers"
-	"github.com/erixalv/crud-golang/models"
+	"github.com/erixalv/crud-golang/net-http/config"
+	"github.com/erixalv/crud-golang/net-http/handlers"
+	"github.com/erixalv/crud-golang/net-http/models"
 	"github.com/gorilla/mux"
 )
 

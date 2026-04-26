@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/erixalv/crud-golang/models"
+	"github.com/erixalv/crud-golang/net-http/models"
 	"github.com/gorilla/mux"
 )
 
